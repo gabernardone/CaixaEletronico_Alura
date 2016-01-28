@@ -9,6 +9,7 @@ namespace Caelum.CaixaEletronico.Contas
 {
     public abstract class OperacoesContas
     {
+        public int TotalContas { get; protected set;}
         public int Numero { get; set; }
         public double Saldo { get; protected set; }
 
@@ -22,8 +23,13 @@ namespace Caelum.CaixaEletronico.Contas
             Poupanca,
         }
 
+        public OperacoesContas()
+        {
+           
+        }
         public OperacoesContas(Cliente cliente)
         {
+            TotalContas++;
             Cliente = cliente;
         }
 

@@ -1,6 +1,6 @@
 ﻿namespace Caelum.CaixaEletronico
 {
-    partial class Form1
+    partial class frmCaixa
     {
         /// <summary>
         /// Required designer variable.
@@ -38,6 +38,7 @@
             this.cboConta = new System.Windows.Forms.ComboBox();
             this.btnDepositar = new System.Windows.Forms.Button();
             this.gpbMenu = new System.Windows.Forms.GroupBox();
+            this.btnTestes = new System.Windows.Forms.Button();
             this.btnTransferir = new System.Windows.Forms.Button();
             this.txtAcaoValor = new System.Windows.Forms.TextBox();
             this.cboDestino = new System.Windows.Forms.ComboBox();
@@ -45,7 +46,6 @@
             this.lblOrigem = new System.Windows.Forms.Label();
             this.lblDestino = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnTestes = new System.Windows.Forms.Button();
             this.gpbMenu.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -143,6 +143,16 @@
             this.gpbMenu.TabStop = false;
             this.gpbMenu.Text = "Menu";
             // 
+            // btnTestes
+            // 
+            this.btnTestes.Location = new System.Drawing.Point(4, 113);
+            this.btnTestes.Name = "btnTestes";
+            this.btnTestes.Size = new System.Drawing.Size(89, 23);
+            this.btnTestes.TabIndex = 13;
+            this.btnTestes.Text = "Testes";
+            this.btnTestes.UseVisualStyleBackColor = true;
+            this.btnTestes.Click += new System.EventHandler(this.btnTestes_Click);
+            // 
             // btnTransferir
             // 
             this.btnTransferir.Location = new System.Drawing.Point(4, 84);
@@ -208,17 +218,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Transferência";
             // 
-            // btnTestes
-            // 
-            this.btnTestes.Location = new System.Drawing.Point(4, 113);
-            this.btnTestes.Name = "btnTestes";
-            this.btnTestes.Size = new System.Drawing.Size(89, 23);
-            this.btnTestes.TabIndex = 13;
-            this.btnTestes.Text = "Testes";
-            this.btnTestes.UseVisualStyleBackColor = true;
-            this.btnTestes.Click += new System.EventHandler(this.btnTestes_Click);
-            // 
-            // Form1
+            // frmCaixa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,8 +233,8 @@
             this.Controls.Add(this.txtTitular);
             this.Controls.Add(this.lblSaldo);
             this.Controls.Add(this.lblTitular);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmCaixa";
+            this.Text = "Caixa Eletronico";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gpbMenu.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

@@ -7,3 +7,5 @@ C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\Ca
 C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.exe
 C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.pdb
 C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\Caelum.CaixaEletronico.Form1.resources
+C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.frmCadastroConta.resources
+C:\Users\gabriel.bernardone\Desktop\CaixaEletronico\CaixaEletronico\obj\Debug\Caelum.CaixaEletronico.fmrCaixa.resources

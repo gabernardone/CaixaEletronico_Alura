@@ -13,10 +13,10 @@ using Caelum.CaixaEletronico.Usuarios;
 
 namespace Caelum.CaixaEletronico
 {
-    public partial class Form1 : Form
+    public partial class frmCaixa : Form
     {
         OperacoesContas[] contas = new OperacoesContas[2];
-        public Form1()
+        public frmCaixa()
         {
             InitializeComponent();
         }
@@ -182,6 +182,12 @@ namespace Caelum.CaixaEletronico
             gerenciador.Adiciona(sv);
             MessageBox.Show("Total: " + gerenciador.Total);
 
+        }
+
+        public void AdicionaConta(OperacoesContas conta)
+        {
+            this.contas[conta.TotalContas] = conta;
+            cboConta.Items.Add(conta);
         }
     }
 }

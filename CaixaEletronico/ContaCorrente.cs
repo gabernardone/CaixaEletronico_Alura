@@ -24,5 +24,10 @@ namespace Caelum.CaixaEletronico
 
 
         }
+
+        public ContaCorrente()
+        {
+            
+        }
     }
 }
